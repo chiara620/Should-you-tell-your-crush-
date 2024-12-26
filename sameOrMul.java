@@ -13,6 +13,7 @@ public class sameOrMul {
 		while (r != '1' && r != '2' && r != '0') {
 			System.out.println("Your answer should be either 1, 2 or 0. Retry.");
 			System.out.println("Is it always the same person or are there multiple people?\n1) Same person\n2) Multiple People\n0) back");
+			s.nextLine();
 			r = s.next().charAt(0);
 		}
 		if (r == '0') {

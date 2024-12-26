@@ -20,6 +20,7 @@ public class seeingSomeOne {
 			System.out.println("2) They're in a relationship");
 			System.out.println("3) They're hooking up with someone");
 			System.out.println("0) back");
+			s.nextLine();
 			r = s.next().charAt(0);
 		}
 		if (r == '0') {
@@ -27,9 +28,11 @@ public class seeingSomeOne {
 		}
 		else if (r=='1'){
 			System.out.println("Is it REALLY casual?\n1) Yes\n2) No maybe not");
+			s.nextLine();
 			r = s.next().charAt(0);
 			while (r != '1' && r != '2') {
 				System.out.println("Your answer should be either 1 or 2. Retry.");
+				s.nextLine();
 				r = s.next().charAt(0);
 			}
 			if (r == '1') {

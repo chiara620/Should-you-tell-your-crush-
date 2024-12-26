@@ -17,6 +17,7 @@ public class situationship {
 			System.out.println("What's their role in the situationship?");
 			System.out.println("1) They're the one who won't commit and is dragging the other person along");
 			System.out.println("2) They're being dragged along by the other person who won't commit\n0) back");
+			s.nextLine();
 			r = s.next().charAt(0);
 		}
 		if (r == '0') {
