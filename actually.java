@@ -7,7 +7,7 @@ public class actually {
 	public static void Actually() {
 		System.out.println("Do you actually like them or do you only have a crush on them because you're in forced proximity with them?");
 		System.out.println("1) No i actually like them");
-		System.out.println("I think it's the forced proximity now that I think about it...");
+		System.out.println("2) I think it's the forced proximity now that I think about it...");
 		System.out.println("0) back");
 		
 		Scanner s = new Scanner(System.in);
@@ -16,7 +16,7 @@ public class actually {
 			System.out.println("Your answer should be either 1, 2 or 0. Retry.");
 			System.out.println("Do you actually like them or do you only have a crush on them because you're in forced proximity with them?");
 			System.out.println("1) No i actually like them");
-			System.out.println("I think it's the forced proximity now that I think about it...");
+			System.out.println("2) I think it's the forced proximity now that I think about it...");
 			System.out.println("0) back");
 			s.nextLine();
 			r = s.next().charAt(0);
