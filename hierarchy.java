@@ -23,14 +23,14 @@ public class hierarchy {
 		}
 		else if (r == '2'){
 			System.out.println("Be more specific.");
-			System.out.println("They're my superior.");
-			System.out.println("I am their superior.");
+			System.out.println("1) They're my superior.");
+			System.out.println("2) I am their superior.");
 			s.nextLine();
 			r = s.next().charAt(0);
 			while (r != '1' && r != '2') {
 				System.out.println("Your answer should be either 1 or 2. Retry.");
-				System.out.println("They're my superior.");
-				System.out.println("I am their superior.");
+				System.out.println("1) They're my superior.");
+				System.out.println("2) I am their superior.");
 				s.nextLine();
 				r = s.next().charAt(0);
 			}

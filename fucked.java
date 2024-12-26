@@ -71,7 +71,6 @@ public class fucked {
 	        double T;
 	        T=(D*F)/G;
 	        int roundedT = (int)Math.round(T);
-	        System.out.println(roundedT);
 	        
 	        if (roundedT <= G) {
 	        	stillFeelings.StillFeelings();

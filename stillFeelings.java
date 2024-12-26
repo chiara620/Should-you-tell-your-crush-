@@ -5,13 +5,13 @@ import java.util.Scanner;
 public class stillFeelings {
 
 	public static void StillFeelings() {
-		System.out.println("Do either of them still have feelings for each other?\n1) Yes/idk\n2) No\n0)Back");
+		System.out.println("Do either of them still have feelings for each other?\n1) Yes/idk\n2) No\n0) back");
 		
 		Scanner s = new Scanner(System.in);
 		char r = s.next().charAt(0);
 		while (r != '1' && r != '2' && r != '0') {
 			System.out.println("Your answer should be either 1, 2 or 0. Retry.");
-			System.out.println("Do either of them still have feelings for each other?\n1) Yes/idk\n2) No\n0)Back");
+			System.out.println("Do either of them still have feelings for each other?\n1) Yes/idk\n2) No\n0) back");
 			s.nextLine();
 			r = s.next().charAt(0);
 		}
